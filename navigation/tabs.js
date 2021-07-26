@@ -15,7 +15,6 @@ const tabs = () => {
             screenOptions={({ route }) => ({
                 tabBarIcon: ({ focused, color, size }) => {
                     let iconName;
-                    console.log(route.name);
                     switch (route.name) {
                         case 'Home':
                             iconName = focused
